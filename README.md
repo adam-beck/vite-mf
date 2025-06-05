@@ -53,5 +53,5 @@ npm run dev:host
 
 - **Host**: Main application that consumes remote modules
 - **Remote**: Provides the Button component
-- Both apps use Vite + React + @originjs/vite-plugin-federation
+- Both apps use Vite + React + @module-federation/vite
 - Shared dependencies: React and ReactDOM
