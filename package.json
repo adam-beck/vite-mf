@@ -1,0 +1,14 @@
+{
+  "name": "vite-mf-hmr-poc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd host && npm install && cd ../remote && npm install",
+    "dev:remote": "cd remote && npm run dev",
+    "dev:host": "cd host && npm run dev",
+    "dev": "concurrently \"npm run dev:remote\" \"npm run dev:host\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
