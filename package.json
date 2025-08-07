@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "install:all": "npm install && cd host && npm install && cd ../remote && npm install",
-    "dev:remote": "cd remote && npm run dev",
-    "dev:host": "cd host && npm run dev",
-    "dev": "concurrently \"npm run dev:remote\" \"npm run dev:host\""
+    "install:all": "bun install && cd host && bun install && cd ../remote && bun install",
+    "dev:remote": "cd remote && pnpm run dev",
+    "dev:host": "cd host && pnpm run dev",
+    "dev": "concurrently \"pnpm run dev:remote\" \"pnpm run dev:host\""
   },
   "devDependencies": {
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.2"
   }
 }

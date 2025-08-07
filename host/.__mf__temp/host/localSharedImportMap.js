@@ -18,7 +18,7 @@
       
           "react": {
             name: "react",
-            version: "18.3.1",
+            version: "19.1.1",
             scope: ["default"],
             loaded: false,
             from: "host",
@@ -44,7 +44,7 @@
         ,
           "react-dom": {
             name: "react-dom",
-            version: "18.3.1",
+            version: "19.1.1",
             scope: ["default"],
             loaded: false,
             from: "host",
