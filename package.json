@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "install:all": "bun install && cd host && bun install && cd ../remote && bun install",
+    "install:all": "pnpm install && cd host && pnpm install && cd ../remote && pnpm install",
     "dev:remote": "cd remote && pnpm run dev",
     "dev:host": "cd host && pnpm run dev",
     "dev": "concurrently \"pnpm run dev:remote\" \"pnpm run dev:host\""
